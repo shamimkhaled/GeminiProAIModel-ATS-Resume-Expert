@@ -46,10 +46,6 @@
 - Each button triggers a conditional block that calls get_gemini_response with appropriate inputs and prompts.
 - The generated response is then displayed on the Streamlit app.
 
-#### Additional Notes:
-- The code requires a valid Google API key with access to Gemini Pro. Get API KEY from [Google AI Studio](https://makersuite.google.com/app/apikey)
-- The pdf2image library requires the [Poppler](https://github.com/oschwartz10612/poppler-windows/releases/) library to be installed.
-
 
 ## Running the Code Locally:
 
@@ -60,7 +56,7 @@
 ```bash
  pip install -r rquirements.txt
 ```
-- Install the Poppler library (instructions vary based on your operating system).
+- Install the [Poppler](https://github.com/oschwartz10612/poppler-windows/releases/) library (instructions vary based on your operating system).
 - Create a .env file in the same directory as your code and add your Google API key as 
 ```bash
 GOOGLE_API_KEY=your_api_key 
@@ -73,5 +69,9 @@ GOOGLE_API_KEY=your_api_key
  streamlit run app.py
 
 ```
-
 - The app will open in your web browser.
+
+#### Additional Notes:
+- The code requires a valid Google API key with access to Gemini Pro. Get API KEY from [Google AI Studio](https://makersuite.google.com/app/apikey)
+- The pdf2image library requires the [Poppler](https://github.com/oschwartz10612/poppler-windows/releases/) library to be installed.
+
