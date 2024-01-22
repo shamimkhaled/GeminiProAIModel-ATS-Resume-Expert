@@ -1,5 +1,5 @@
 
-# [Genrative AI Model ATS - Resume Tracking System](https://geminiproaimodel-ats-resume-expert.streamlit.app/)
+# [Gemini Pro Vision AI Model ATS - Resume Tracking System](https://geminiproaimodel-ats-resume-expert.streamlit.app/)
 
 
 #### Purpose:
